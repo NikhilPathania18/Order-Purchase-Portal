@@ -1,0 +1,124 @@
+body{
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position-x: 0px ;
+    background-position-y: 0px;
+    background-repeat: repeat-x;
+}
+.container{
+    border: 0px solid rgb(161, 131, 131);
+    width: 350px;
+    height: 600px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color:    #e5f1f8;
+}
+.upper{
+    width: auto;
+    height: 220px;
+    border: 0px solid red;
+    border-top-left-radius: 18px ;
+    border-top-right-radius: 18px;
+    background-image: url('images/illustration-hero.svg');
+    background-position: center;
+}
+#orderSummary{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#para{
+    padding: 5px 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: grey;
+}
+#payment{
+    border: 0px solid red;
+    background-color: white;
+    border-radius: 13px;
+    margin-left: 10px ;
+    margin-right: 10px;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+#imageMusic{
+    padding: 10px;
+    float:left;
+}
+ .price{
+    padding: 10px;
+    width: 150px;
+    margin: 0px;
+    margin-right: 0px;
+    float:left;
+
+
+}
+.price h3,h4{
+    margin:0px;
+    text-align: center;
+
+}
+
+.Change{
+   float: left;
+   padding-top: 20px;
+   padding-left: 10px;
+   
+}
+.btn{
+    width: 280px;
+    height: 40px;
+    border: 0px solid red;
+    background-color: #382ae1;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 30px;
+    margin-top: 30px;
+   
+}
+.btn:hover{
+    background-color: rgb(58, 131, 240);
+    cursor: pointer;
+    
+}
+.btn:active{
+    color: black;
+}
+#cancel{
+    width: 280px;
+    height: 40px;
+    border: 0px solid black;
+    background-color: #e5f1f8;
+    color: grey;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+#cancel:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+#cancel:active{
+    color: black;
+}
+.Change{
+    color: #382ae1;
+    font-size: larger;
+    
+
+}
+.Change :visited{
+    color: #382ae1;
+}
